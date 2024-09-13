@@ -28,22 +28,17 @@ dataset_info:
   - name: __index_level_0__
     dtype: int64
   splits:
-  - name: train
-    num_bytes: 494667
-    num_examples: 100
   - name: test
-    num_bytes: 426888
-    num_examples: 100
+    num_bytes: 488918254
+    num_examples: 108862
   - name: validation
-    num_bytes: 358040
-    num_examples: 100
-  download_size: 884981
-  dataset_size: 1279595
+    num_bytes: 489655495
+    num_examples: 108837
+  download_size: 598742790
+  dataset_size: 978573749
 configs:
 - config_name: default
   data_files:
-  - split: train
-    path: data/train-*
   - split: test
     path: data/test-*
   - split: validation
