@@ -34,7 +34,7 @@ dataset_info:
   - name: test
     num_bytes: 426888
     num_examples: 100
-  - name: dev
+  - name: validation
     num_bytes: 358040
     num_examples: 100
   download_size: 884981
@@ -46,6 +46,6 @@ configs:
     path: data/train-*
   - split: test
     path: data/test-*
-  - split: dev
-    path: data/dev-*
+  - split: validation
+    path: data/validation-*
 ---
