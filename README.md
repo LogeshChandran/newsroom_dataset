@@ -31,16 +31,16 @@ dataset_info:
     dtype: int64
   splits:
   - name: train
-    num_bytes: 4468330000
-    num_examples: 985041
+    num_bytes: 4508192647
+    num_examples: 995041
   - name: test
-    num_bytes: 449139524
-    num_examples: 98862
+    num_bytes: 488918254
+    num_examples: 108862
   - name: validation
-    num_bytes: 450648786
-    num_examples: 98837
-  download_size: 3256994687
-  dataset_size: 5368118310
+    num_bytes: 489655495
+    num_examples: 108837
+  download_size: 3331951040
+  dataset_size: 5486766396
 configs:
 - config_name: default
   data_files:
