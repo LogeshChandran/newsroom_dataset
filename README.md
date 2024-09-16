@@ -36,7 +36,7 @@ dataset_info:
   - name: validation
     num_bytes: 489655495
     num_examples: 108837
-  download_size: 598742790
+  download_size: 598745313
   dataset_size: 978573749
 configs:
 - config_name: default
